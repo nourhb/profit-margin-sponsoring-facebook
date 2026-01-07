@@ -34,7 +34,7 @@ export function MetricDisplay({ label, value, className, valueClassName, note, t
            <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <p className="text-sm text-muted-foreground cursor-help w-fit">{labelContent}</p>
+                <div className="text-sm text-muted-foreground cursor-help w-fit">{labelContent}</div>
               </TooltipTrigger>
               <TooltipContent>
                 <p className="max-w-xs">{tooltip}</p>
