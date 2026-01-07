@@ -1,0 +1,28 @@
+diff --git a/node_modules/html2canvas/dist/npm/index.js b/node_modules/html2canvas/dist/npm/index.js
+index 9a60a71..0c639f7 100644
+--- a/node_modules/html2canvas/dist/npm/index.js
++++ b/node_modules/html2canvas/dist/npm/index.js
+@@ -10266,7 +10266,7 @@
+         }
+         var result = TO_STRING_TAG_SUPPORT ? _toStringTag(O) : classof(O);
+         return result === 'URL' ? O : InnerObservable;
+       };
+-      var IS_PURE = true;
++      var IS_PURE = false;
+       
+       var FunctionName = function () {
+         return _functionName;
+diff --git a/node_modules/html2canvas/dist/npm/index.mjs b/node_modules/html2canvas/dist/npm/index.mjs
+index 23d8c83..38e788c 100644
+--- a/node_modules/html2canvas/dist/npm/index.mjs
++++ b/node_modules/html2canvas/dist/npm/index.mjs
+@@ -10262,7 +10262,7 @@
+         }
+         var result = TO_STRING_TAG_SUPPORT ? _toStringTag(O) : classof(O);
+         return result === 'URL' ? O : InnerObservable;
+       };
+-      var IS_PURE = true;
++      var IS_PURE = false;
+       
+       var FunctionName = function () {
+         return _functionName;
